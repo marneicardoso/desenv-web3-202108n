@@ -1,0 +1,36 @@
+
+/* Importa a fonte Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #002e66;
+}
+
+body {
+    /* letter-spacing: 0.1rem; */
+    /* word-spacing: 0.3rem; */
+    background-color: #002e66;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+img {
+    width: 35%;
+    /* width: 350px; */
+}
+
+/* Classes */
+.container {
+    width: 80%;
+    margin: auto;
+    min-height: 450px;
+    padding: 25px;
+    background-color: #f9f9f9;
+}
