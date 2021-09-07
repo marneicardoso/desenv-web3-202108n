@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML e JS - DOM</title>
+
+    <!-- Inclui o arquivo CSS Externo -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Alterar texto ao tirar foco</h3>
+
+        <label for="nome">Informe o nome:</label>
+        <input type="text" id="nome" onblur="alterarTexto()">
+        <!-- <input type="text" id="nome" onchange="alterarTexto()"> -->
+        <!-- <input type="text" id="nome" oninput="alterarTexto()"> -->
+        <!-- <input type="text" id="nome" onmouseover="alterarTexto()"> -->
+
+        <p>
+            Quando tirar o foco do input, a function será acionada
+            e transformará o texto informado em
+            upper case (maiúsculas)
+        </p>
+    </div>
+
+    <!-- Inclui o arquivo JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
